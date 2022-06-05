@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>riftsettler</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/lib/bootstrap.min.css" />
+    <script src="js/lib/jquery.min.js"></script>
+    <script src="js/lib//bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link href='https://fonts.googleapis.com/css?family=Aclonica' rel='stylesheet'>
+
+    <script  type="text/javascript" src="js/group_list.js"></script>
+    <script  type="text/javascript" src="js/group1.js"></script>
+    <script  type="text/javascript" src="js/common.js"></script>
+
+   
+  </head>
+
+  <style>
+      body {
+          font-family: 'Aclonica';
+      }
+      </style>
+      <!-- Modal create content-->
+      <div id="myCreate" class="modal fade" role="dialog">
+          <div class="modal-dialog">
+
+              <!-- Modal content-->
+              <div class="modal-content">
+                  <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal">&times;</button>
+                      <h3 class="alert alert-success well1">Create A New Group</h4>
+                  </div>
+                  <div class="modal-body">
+                      <input type="text" class="col-xs-4 input" id="gName" placeholder="Group name" name="group name"><br><br>
+<input type="text" class="col-xs-4 input" id="description" placeholder="description" name="description"><br><br>
+                  </div>
+                  <div class="modal-footer">
+                 <button type="button" class="btn btn-success btn-lg"  onclick="createGroup()" >Create</button>
+                  </div>
+              </div>
+              </div>
+      </div>
+<!-- Modal join content-->
+      <div id="myJoin" class="modal fade" role="dialog">
+          <div class="modal-dialog">
+
+              <!-- Modal content-->
+              <div class="modal-content">
+                  <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal">&times;</button>
+                      <h3 class="alert alert-info well1">Join Group</h4>
+                  </div>
+                  <div class="modal-body">
+                      
+<input type="text" class="col-xs-6 input" id="groupId" placeholder="enter Group ID" name="Group ID"><br><br>
+
+                  </div>
+                  <div class="modal-footer">
+                    
+                    <button type="button" class="btn btn-info btn-lg"  onclick="joinGroup()" >Join</button>
+                  </div>
+              </div>
+              </div>
+      </div>
+
+      <!-- Modal member content-->
+      <div id="myMember" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h3 class="alert alert-warning well1">Invite member</h4>
+                </div>
+                <div class="modal-body">
+                    <input type="email " class="col-xs-6 input" id="emailI" placeholder="enter your email" name="email"><br><br>
+<input type="text" class="col-xs-6 input" id="groupIdI" placeholder="groupID" name="groupID"><br><br>
+
+                </div>
+                <div class="modal-footer">
+                   <button type="button" class="btn btn-warning btn-lg"  onclick="inviteMem()" >Invite</button>
+                </div>
+            </div>
+            </div>
+    </div>
+            <nav class="navbar navbar-inverse ppp">
+                    <div class="container-fluid">
+                      <div class="navbar-header">
+                        <a class="navbar-brand" href="#">Riftsettler</a>
+                      </div>
+                      <ul class="nav navbar-nav navbar">
+                        <li><a href="personal.html">Personal</a></li>
+                        <li class="active">
+                          <a href="#">Group</a>
+                        </li>
+                        <!-- <li><a href="#">Activity</a></li> -->
+                      </ul>
+                      <ul class="nav navbar-nav navbar-right">
+                        <li>
+                          <a onclick="logout()" class="pointer"
+                            ><span class="glyphicon glyphicon-log-in"></span> Logout</a
+                          >
+                        </li>
+                      </ul>
+                      <div class="navbar-header  navbar-right">
+                          <a class="navbar-brand"id='userName' ></a>
+                        </div>
+                    </div>
+                  </nav>
+                  <div class="container-fluid personal_h">
+                    <div class="col-sm-12 " id= "group_list_css">
+                      
+                      <div class="col-sm-8 ">
+                      <button type="submit" class="btn btn-success btn-lg "data-toggle="modal" data-target="#myCreate"> CREATE New Group</button>
+                      <button type="submit" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myJoin">Join Group</button>
+                    </div> 
+                    <div class="col-sm-4 "></div>
+                  </div>
+                  </div>
+                    
+                    <div class="container-fluid personal_h">
+                        <div class="col-sm-12 " >
+                    <div class="well well1">
+                        <h3>GROUP LIST</h3>
+                </div> 
+                </div>
+                </div> 
+              </div>
+                  <div class="container-fluid personal_h" class="pointer">
+                        <div class="col-sm-12 " id= "group_list" ></div>    
+                  </div>
+                  </html>
+                  

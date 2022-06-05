@@ -1,0 +1,234 @@
+/* hhhhhhh*/
+
+h1,
+h2,
+h3 {
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+h1 {
+    font-size: 240%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #fff;
+    word-spacing: 4px;
+    text-align: center;
+}
+
+h2 {
+    word-spacing: 2px;
+    font-size: 180%;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h3 {
+    font-size: 110%;
+    margin-bottom: 5px;
+    word-spacing: 2px;
+    text-align: center;
+    color: #e67e22;
+}
+p{
+    text-align: center;
+}
+
+.head{
+    margin-top: 250px;
+    
+    
+
+}
+.pointer{
+    cursor: pointer;
+}
+.tital{
+    font: bold;
+}
+.slogan{
+     margin-top: 0px;
+     color: #fff;
+}
+
+/* Split the screen in half */
+
+.split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+
+/* Control the left side */
+
+.left {
+    left: 0;
+    background-image: linear-gradient(rgba(59, 35, 35, 0.69), rgba(0, 0, 0, 0.69)), url(hh.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+} 
+
+
+
+/* Control the right side */
+
+.right {
+    right: 0;
+    background-color: #f4f4f4;
+}
+
+.login {
+    color: #e67e22;
+}
+
+.fstyle {
+    color: #e67e22;
+    word-spacing: 2px;
+    font-size: 20px;
+    padding-left: 10px;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-left: 120px;
+} 
+
+#xxx{
+    margin-top: 80px;
+    margin-left: 80px;
+}
+.input {
+    border-radius: 200px;
+    border-color: #e67e22;
+}
+
+.form {
+    margin-top: 0px;
+    margin-block: center;
+}
+
+.login_b {
+    border-radius: 200px;
+    height: 30px;
+    width: 80px;
+}
+
+.anchor {
+    color: rgba(216, 44, 79, 0.836);
+    font-size: 20px;
+}
+
+hr.type_7 {
+    height: 55px;
+    background-image: url("type_7.png");
+    background-repeat: no-repeat;
+    width: 70%;
+    margin-left: 10%;
+}
+.personal_h{
+    background-color
+    margin-top: 5px;
+}
+.well1{
+    margin-top: 10px;
+}
+.alert {
+    /* padding: 15px; */
+     margin-bottom: 10px; 
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+.add{
+    align-content: right;
+}
+.asd{
+    margin-top: 160px;
+}
+.navbar-inverse{
+    
+    margin-bottom: 0px;
+   
+    
+}
+#add{
+    margin-top: 5px;
+    float: right;
+}
+#table{
+background-color:  #cabcbc;
+
+}
+
+#table-scroll {
+    height:295px;
+    overflow:auto; 
+  }
+  #table-scroll thead th{
+      background-color: #e67e22;
+      position: sticky; top: 0;
+  }
+
+
+  #tableG-scroll {
+    height:295px;
+    overflow:auto; 
+  }
+  #tableG-scroll thead th{
+      background-color: #e67e22;
+      position: sticky; top: 0;
+  }
+  #tableGG-scroll {
+    height:295px;
+    overflow:auto; 
+  }
+
+/* ----------------------------navbar --------------------------------------------*/
+.navbar-inverse .navbar-nav>li>a:{
+    color:#e67e22;
+}
+.navbar-inverse .navbar-nav>li>a:hover{
+    color: rgb(216, 194, 194);
+}
+.navbar-inverse {
+    background-color:#e67e22;
+    border-color: #e67e22;
+}
+.navbar-inverse .navbar-brand {
+    color: #fff;
+}
+.navbar-inverse .navbar-nav>li>a {
+    color: #fff;
+}
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+    color: #fff;
+    background-color:#fc7500;
+}
+.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover {
+    color: #fff;
+    background-color: #fc7500;
+}
+.form-horizontal .form-group {
+    margin-right: -45px;
+    margin-left: -85px;
+}
+
+/*======fonts-=======*/
+@font-face {
+    font-family: 'Aclonica';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Aclonica Regular'), local('Aclonica-Regular'), url(https://fonts.gstatic.com/s/aclonica/v10/K2FyfZJVlfNNSEBXGY7UAo8.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+  #group_list_css{
+      margin-top: 20px;
+      margin-bottom: 20px;
+      margin-left: 70%;
+  }
+
+  
